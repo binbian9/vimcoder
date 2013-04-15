@@ -81,6 +81,7 @@ public class Editor
 		this.contestName = component.getProblem().getRound().getContestName().replaceAll(" ", "-");
 		this.points = String.valueOf(component.getPoints().intValue());
 
+                //test
 		// Make sure the top-level vimcoder directory exists.
 		File topDir = VimCoder.getStorageDirectory();
 		if (!topDir.isDirectory())
