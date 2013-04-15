@@ -79,7 +79,7 @@ public class Editor
 		this.id = String.valueOf(component.getProblem().getProblemID());
 		this.name = component.getClassName();
 		this.contestName = component.getProblem().getRound().getContestName().replaceAll(" ", "-");
-		this.points = String.valueOf(component.getPoints().intValue());
+		this.points = name+"-"+String.valueOf(component.getPoints().intValue());
 
                 //test
 		// Make sure the top-level vimcoder directory exists.
